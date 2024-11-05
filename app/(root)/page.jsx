@@ -1,3 +1,4 @@
+import Features from "@/components/Features";
 import Hero from "@/components/Hero";
 
 export const metadata = {
@@ -36,6 +37,7 @@ function Home() {
   return (
     <>
       <Hero />
+      <Features />
       Some other sections, of course!
     </>
   );
