@@ -35,13 +35,13 @@ function Hero() {
           </Link>
         </div>
       </div>
-      <div className="md:w-1/2 sm:px-5 py-16 md:py-24 self-center">
+      <div className="md:w-1/2 sm:px-5 py-8 md:py-16 self-center">
         <div className="bg-border p-2 rounded-xl">
           <Image
             src="/screenshot.png"
             alt="MERNMail screenshot"
-            width={1920}
-            height={1080}
+            width={1600}
+            height={1200}
             className="w-full rounded-lg"
           />
         </div>
