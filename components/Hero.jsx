@@ -22,14 +22,14 @@ function Hero() {
           <Link
             href="#"
             target={"_self"}
-            className="bg-primary text-primary-foreground rounded-md px-4 py-2 hover:bg-primary/75 transition-colors"
+            className="bg-primary text-primary-foreground rounded-md px-5 py-2 text-lg hover:bg-primary/75 transition-colors"
           >
             Get started
           </Link>
           <Link
             href="#"
             target={"_self"}
-            className="bg-accent text-accent-foreground rounded-md px-4 py-2 hover:bg-accent/75 transition-colors"
+            className="bg-accent text-accent-foreground rounded-md px-5 py-2 text-lg hover:bg-accent/75 transition-colors"
           >
             View demo
           </Link>
