@@ -1,3 +1,5 @@
+import Hero from "@/components/Hero";
+
 export const metadata = {
   title: "MERNMail - a MERN stack webmail application",
   description:
@@ -31,7 +33,12 @@ export const metadata = {
 };
 
 function Home() {
-  return <div>Placeholder</div>;
+  return (
+    <>
+      <Hero />
+      Some other sections, of course!
+    </>
+  );
 }
 
 export default Home;
