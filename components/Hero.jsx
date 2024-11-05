@@ -3,7 +3,7 @@ import Link from "next/link";
 
 function Hero() {
   return (
-    <div className="flex flex-col md:flex-row mx-auto max-w-screen-xl px-3 py-24">
+    <div className="flex flex-col md:flex-row mx-auto max-w-screen-xl px-3 py-12">
       <div className="md:w-1/2 self-center text-center md:text-start">
         <h1 className="font-bold text-5xl md:text-6xl hyphens-auto leading-tight md:leading-tight md:text-start">
           Revolution&shy;ize your <span className="text-primary">inbox</span>{" "}

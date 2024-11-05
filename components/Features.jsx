@@ -2,7 +2,7 @@ import { features } from "@/constants";
 
 function Features() {
   return (
-    <div className="mx-auto px-3 py-12 max-w-screen-xl">
+    <div className="mx-auto px-3 py-24 max-w-screen-xl">
       <h2 className="text-center font-bold text-4xl md:text-5xl hyphens-auto">
         Experience Effortless <span className="text-primary">Email</span>
       </h2>
