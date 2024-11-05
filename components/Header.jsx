@@ -28,14 +28,14 @@ function Header({ docLinks }) {
           <span className="sr-only">MERNMail logo</span>
           <Logo width={160} height={35} className="inline h-8 w-auto" />
         </Link>
-        <nav className="grow">
-          <ul className="hidden md:inline mx-2.5 list-none">
+        <nav className="grow text-sm">
+          <ul className="hidden md:flex h-full mx-2.5 list-none">
             {headerLinks.nav.map((navLink) => (
-              <li className="inline" key={navLink.label}>
+              <li className="flex" key={navLink.label}>
                 <Link
                   href={navLink.href}
                   target={navLink.target}
-                  className={`inline-block align-middle ${pathname == navLink.href ? "bg-accent" : ""} text-inherit px-2 py-1 h-8 mx-1 rounded-sm hover:bg-accent/60 transition-colors`}
+                  className={`inline-block self-center ${pathname == navLink.href ? "bg-accent" : ""} text-inherit px-2 py-1.5 mx-1 rounded-sm hover:bg-accent/60 transition-colors`}
                 >
                   {navLink.label}
                 </Link>
