@@ -6,6 +6,11 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
+  purge: {
+    options: {
+      safelist: ["dark"],
+    },
+  },
   theme: {
     extend: {
       colors: {
