@@ -22,7 +22,7 @@ function Header({ docLinks }) {
   }, [menuShown]);
 
   return (
-    <header className="w-full border-b border-b-border sticky z-40 block h-12">
+    <header className="w-full border-b border-b-border sticky top-0 z-40 block h-12">
       <div className="flex flex-row h-full px-2 py-2 mx-auto max-w-screen-xl">
         <Link href="/" className="mx-1.5">
           <span className="sr-only">MERNMail logo</span>
