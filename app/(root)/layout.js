@@ -1,11 +1,4 @@
-import { Inter } from "next/font/google";
 import { ThemeProvider } from "next-themes";
-import "./globals.css";
-
-const inter = Inter({
-  weight: ["400", "600", "700", "900"],
-  subsets: ["latin"],
-});
 
 export const metadata = {
   title: "MERNMail - a MERN stack webmail application",
@@ -40,13 +33,5 @@ export const metadata = {
 };
 
 export default function RootLayout({ children }) {
-  return (
-    <html lang="en" suppressHydrationWarning>
-      <body className={`antialiased ${inter.className}`}>
-        <ThemeProvider attribute="class" enableSystem={true}>
-          {children}
-        </ThemeProvider>
-      </body>
-    </html>
-  );
+  return <>{children}</>;
 }
