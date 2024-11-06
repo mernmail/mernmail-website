@@ -1,3 +1,4 @@
+import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 
 export default function RootLayout({ children }) {
@@ -26,6 +27,7 @@ export default function RootLayout({ children }) {
         ]}
       />*/}
       <div className="flex-grow flex-1 overflow-x-hidden">{children}</div>
+      <Footer />
     </div>
   );
 }

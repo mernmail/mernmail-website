@@ -81,3 +81,33 @@ export const questions = [
     answer: "You can read the documentation to learn how to use MERNMail."
   }
 ];
+
+export const footerLinks = {
+  otherPages: [
+    { href: "/", label: "Home" },
+    { href: "/contact", label: "Contact" },
+    { href: "/blog", label: "Blog" }
+  ],
+  resources: [
+    { href: "/docs", label: "Docs" },
+    { href: "https://git.svrjs.org/", label: "Git repository" },
+    { href: "/contribute", label: "Contribute" }
+  ],
+  social: {
+    supportText: "Support Us on Socials"
+  },
+  footerBottom: {
+    termsofService: {
+      href: "/tos",
+      label: "Terms of Service"
+    },
+    privacyPolicy: {
+      href: "/privacy",
+      label: "Privacy Policy"
+    },
+    rightsReserved: {
+      href: "https://svrjs.org/",
+      label: "SVR.JS"
+    }
+  }
+};
