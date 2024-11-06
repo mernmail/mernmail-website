@@ -43,7 +43,11 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en" suppressHydrationWarning>
       <body className={`antialiased ${inter.className}`}>
-        <ThemeProvider attribute="class" enableSystem={true}>
+        <ThemeProvider
+          attribute="class"
+          enableSystem={true}
+          disableTransitionOnChange={true}
+        >
           {children}
         </ThemeProvider>
       </body>
