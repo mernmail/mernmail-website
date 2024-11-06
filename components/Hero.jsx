@@ -8,7 +8,7 @@ function Hero() {
         <h1 className="font-bold text-5xl md:text-6xl hyphens-auto leading-tight md:leading-tight md:text-start">
           Revolution&shy;ize your <span className="text-primary">inbox</span>{" "}
           with{" "}
-          <span className="relative">
+          <span className="relative whitespace-nowrap">
             <span className="absolute top-0 -left-1 -right-1 bottom-0 -rotate-1 bg-primary"></span>
             <span className="relative text-primary-foreground">MERNMail</span>
           </span>
