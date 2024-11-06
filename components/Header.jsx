@@ -117,6 +117,7 @@ function Header({ docLinks }) {
             }}
             className="inline-block md:hidden self-center"
           >
+            <span className="sr-only">Close</span>
             <X className="inline-block w-8 h-8 py-1 rounded-sm bg-background text-foreground hover:bg-accent/60 hover:text-accent-foreground transition-colors" />
           </button>
         </div>
