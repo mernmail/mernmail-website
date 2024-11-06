@@ -50,3 +50,34 @@ export const features = [
       "Access your emails seamlessly on any device with MERNMail. Our responsive design ensures a smooth experience on smartphones and tablets, making it easy to read, compose, and organize emails on the go."
   }
 ];
+
+export const questions = [
+  {
+    key: "item-1",
+    question: "What is a webmail application?",
+    answer:
+      "A webmail application is a type of email client that allows users to access and manage their email accounts through a web browser. It provides a user interface to send, receive, and manage emails, as well as other features, for example contact management, all within a web-based interface."
+  },
+  {
+    key: "item-2",
+    question: "What is MERNMail?",
+    answer:
+      "MERNMail is an open-source webmail application that is built on MERN stack. MERNMail also has an address book functionality. MERNMail is licensed under a permissive MIT license."
+  },
+  {
+    key: "item-3",
+    question: "How did MERNMail get its name?",
+    answer:
+      'MERNMail got its name from the MERN stack that the application is built on ("MERN") and the purpose of the application - a webmail application ("Mail").'
+  },
+  {
+    key: "item-4",
+    question: "How can I set up MERNMail?",
+    answer: "You can read the documentation to learn how to set up MERNMail."
+  },
+  {
+    key: "item-5",
+    question: "How can I use MERNMail?",
+    answer: "You can read the documentation to learn how to use MERNMail."
+  }
+];

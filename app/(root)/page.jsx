@@ -1,4 +1,5 @@
 import About from "@/components/About";
+import FAQ from "@/components/FAQ";
 import Features from "@/components/Features";
 import Hero from "@/components/Hero";
 
@@ -40,7 +41,7 @@ function Home() {
       <Hero />
       <Features />
       <About />
-      Some other sections, of course!
+      <FAQ />
     </>
   );
 }
