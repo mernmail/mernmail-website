@@ -12,7 +12,7 @@ function Footer() {
         <div className="px-3 sm:px-12 md:px-24 lg:px-6 py-10 w-full mx-auto max-w-screen-xl">
           <div className="flex flex-col lg:flex-row justify-between max-lg:items-start max-sm:items-center items-center mb-6 ">
             <div className="flex items-center mb-6 md:mb-0">
-              <Logo width={200} height={80} />
+              <Logo width={240} height={80} />
             </div>
             <div className="flex flex-col items-center sm:items-start sm:flex-row justify-between w-full lg:w-auto space-y-6 sm:space-y-0 sm:space-x-6 lg:space-x-16">
               <div className="flex flex-col items-center sm:items-start">
