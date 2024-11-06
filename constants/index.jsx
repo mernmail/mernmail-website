@@ -62,13 +62,13 @@ export const questions = [
     key: "item-2",
     question: "What is MERNMail?",
     answer:
-      "MERNMail is an open-source webmail application that is built on MERN stack. MERNMail also has an address book functionality. MERNMail is licensed under a permissive MIT license."
+      "MERNMail is an open-source webmail application that is built on MERN stack (MongoDB, Express, React, Node.JS). MERNMail also has an address book functionality. MERNMail is licensed under a permissive MIT license."
   },
   {
     key: "item-3",
     question: "How did MERNMail get its name?",
     answer:
-      'MERNMail got its name from the MERN stack that the application is built on ("MERN") and the purpose of the application - a webmail application ("Mail").'
+      'MERNMail got its name from the technology stack the application is built on ("MERN") and the purpose of the application - a webmail application ("Mail").'
   },
   {
     key: "item-4",
