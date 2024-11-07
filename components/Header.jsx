@@ -133,6 +133,9 @@ function Header({ docLinks }) {
                 href={navLink.href}
                 target={navLink.target}
                 className={`inline-block align-middle ${pathname == navLink.href || (navLink.href != "/" && pathname.indexOf(navLink.href + "/") == 0) ? "bg-accent" : ""} text-inherit px-2 py-1 mx-1 rounded-sm hover:bg-accent/60 transition-colors`}
+                onClick={() => {
+                  setMenuShown(false);
+                }}
               >
                 {navLink.label}
               </Link>
@@ -143,6 +146,9 @@ function Header({ docLinks }) {
               href={headerLinks.git.href}
               target={headerLinks.git.target}
               className="whitespace-nowrap inline-block align-middle text-inherit px-2 py-1 h-8 mx-1 rounded-sm hover:bg-accent/60 transition-colors"
+              onClick={() => {
+                setMenuShown(false);
+              }}
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -169,6 +175,9 @@ function Header({ docLinks }) {
                   href={docLink.href}
                   target={docLink.target || "_self"}
                   className={`${docLink.sub ? "ml-4" : ""} block align-middle ${pathname == docLink.href ? "bg-accent" : ""} text-inherit px-2 py-1 mx-1 rounded-sm hover:bg-accent/60 transition-colors`}
+                  onClick={() => {
+                    setMenuShown(false);
+                  }}
                 >
                   {docLink.label}
                 </Link>
