@@ -103,7 +103,9 @@ function Contact() {
           <button
             type="submit"
             className="bg-primary text-primary-foreground p-2 rounded-md text-center w-full hover:bg-primary/75 disabled:bg-primary/50 transition-colors"
-            disabled={!name || !email || !isEmail(email) || !message}
+            disabled={
+              !name || !email || !isEmail(email) || !message || !hCaptchaToken
+            }
           >
             <Send className="inline align-top mr-2" />
             <span className="align-middle">Send</span>
