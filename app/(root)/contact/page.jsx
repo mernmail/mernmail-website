@@ -90,7 +90,7 @@ function Contact() {
             id="contact-message"
             className="block h-44 bg-accent text-accent-foreground w-full rounded-md px-2 py-1 focus:outline focus:outline-2 focus:outline-primary"
           />
-          <div className="my-5">
+          <div className="my-5 w-[300px] mx-auto">
             <HCaptcha
               ref={captchaRef}
               sitekey={process.env.NEXT_PUBLIC_HCAPTCHA_SITE_KEY}
