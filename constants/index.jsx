@@ -1,4 +1,13 @@
-import { Bird, MonitorSmartphone, Server, Sparkles } from "lucide-react";
+import {
+  Bird,
+  Bug,
+  Mail,
+  MonitorSmartphone,
+  Server,
+  ShieldCheck,
+  Sparkles,
+  WebhookIcon
+} from "lucide-react";
 
 export const headerLinks = {
   nav: [
@@ -111,3 +120,26 @@ export const footerLinks = {
     }
   }
 };
+
+export const emails = [
+  {
+    icon: Mail,
+    email: "support@mernmail.org",
+    url: "mailto:support@mernmail.org"
+  },
+  {
+    icon: WebhookIcon,
+    email: "webmaster@mernmail.org",
+    url: "mailto:webmaster@mernmail.org"
+  },
+  {
+    icon: Bug,
+    email: "bugreports@mernmail.org",
+    url: "mailto:bugreports@mernmail.org"
+  },
+  {
+    icon: ShieldCheck,
+    email: "vulnerability-reports@mernmail.org",
+    url: "mailto:vulnerability-reports@mernmail.org"
+  }
+];
