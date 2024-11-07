@@ -22,7 +22,7 @@ function Contact() {
       </h1>
       <div className="flex flex-col md:flex-row mb-6">
         <form
-          className="border-border border bg-card text-card-foreground rounded-lg mx-2 md:mx-4 max-md:mb-8 p-6 w-full self-center"
+          className="border-border border bg-card text-card-foreground rounded-lg mx-2 md:mx-4 max-md:mb-8 p-6 w-full self-center overflow-x-auto"
           onSubmit={async (e) => {
             e.preventDefault();
             try {
