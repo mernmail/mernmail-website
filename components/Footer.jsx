@@ -20,7 +20,7 @@ function Footer() {
                 <span key={link.href}>
                   <Link
                     href={link.href}
-                    className="text-base hover:text-primary hover:underline"
+                    className="text-base hover:text-primary hover:underline transition-colors duration-100"
                   >
                     {link.label}
                   </Link>
@@ -34,7 +34,7 @@ function Footer() {
                 <span key={link.href}>
                   <Link
                     href={link.href}
-                    className="text-base hover:text-primary hover:underline"
+                    className="text-base hover:text-primary hover:underline transition-colors duration-100"
                   >
                     {link.label}
                   </Link>
