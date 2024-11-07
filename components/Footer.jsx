@@ -15,14 +15,12 @@ function Footer() {
           </div>
           <div className="flex flex-col items-center sm:items-start sm:flex-row justify-between w-full lg:w-auto space-y-6 sm:space-y-0 sm:space-x-6 lg:space-x-16">
             <div className="flex flex-col items-center sm:items-start">
-              <div className="text-2xl font-light text-primary">
-                Quick links
-              </div>
+              <div className="text-2xl font-bold text-primary">Quick links</div>
               {footerLinks.otherPages.map((link) => (
                 <span key={link.href}>
                   <Link
                     href={link.href}
-                    className="text-base font-light hover:text-primary hover:underline"
+                    className="text-base hover:text-primary hover:underline"
                   >
                     {link.label}
                   </Link>
@@ -31,12 +29,12 @@ function Footer() {
             </div>
 
             <div className="flex flex-col items-center sm:items-start">
-              <div className="text-2xl font-light text-primary">Resources</div>
+              <div className="text-2xl font-bold text-primary">Resources</div>
               {footerLinks.resources.map((link) => (
                 <span key={link.href}>
                   <Link
                     href={link.href}
-                    className="text-base font-light hover:text-primary hover:underline"
+                    className="text-base hover:text-primary hover:underline"
                   >
                     {link.label}
                   </Link>
@@ -45,10 +43,8 @@ function Footer() {
             </div>
 
             <div className="flex flex-col items-center sm:items-start">
-              <div className="text-2xl font-light text-primary">Social</div>
-              <p className="text-base font-light">
-                {footerLinks.social.supportText}
-              </p>
+              <div className="text-2xl font-bold text-primary">Social</div>
+              <p className="text-base">{footerLinks.social.supportText}</p>
               <div className="flex space-x-1 py-3">
                 <SocialIcons />
               </div>
