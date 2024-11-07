@@ -9,7 +9,7 @@ export const metadata = {
     title: "Contribute - MERNMail",
     description:
       "Contribute to MERNMail and be part of an exciting open-source project. Follow the guidelines to contribute to our code.",
-    url: `${process.env.NEXT_PUBLIC_WEBSITE_URL}`,
+    url: `${process.env.NEXT_PUBLIC_WEBSITE_URL}/contribute`,
     type: "website",
     images: [
       {
