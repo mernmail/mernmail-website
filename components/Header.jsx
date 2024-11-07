@@ -132,7 +132,7 @@ function Header({ docLinks }) {
               <Link
                 href={navLink.href}
                 target={navLink.target}
-                className={`inline-block align-middle ${pathname == navLink.href || (navLink.href != "/" && pathname.indexOf(navLink.href + "/") == 0) ? "bg-accent" : ""} text-inherit px-2 py-1 h-8 mx-1 rounded-sm hover:bg-accent/60 transition-colors`}
+                className={`inline-block align-middle ${pathname == navLink.href || (navLink.href != "/" && pathname.indexOf(navLink.href + "/") == 0) ? "bg-accent" : ""} text-inherit px-2 py-1 mx-1 rounded-sm hover:bg-accent/60 transition-colors`}
               >
                 {navLink.label}
               </Link>
@@ -168,7 +168,7 @@ function Header({ docLinks }) {
                 <Link
                   href={docLink.href}
                   target={docLink.target || "_self"}
-                  className={`${docLink.sub ? "ml-4" : ""} block align-middle ${pathname == docLink.href ? "bg-accent" : ""} text-inherit px-2 py-1 h-8 mx-1 rounded-sm hover:bg-accent/60 transition-colors`}
+                  className={`${docLink.sub ? "ml-4" : ""} block align-middle ${pathname == docLink.href ? "bg-accent" : ""} text-inherit px-2 py-1 mx-1 rounded-sm hover:bg-accent/60 transition-colors`}
                 >
                   {docLink.label}
                 </Link>

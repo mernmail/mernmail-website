@@ -1,0 +1,3 @@
+# Welcome to MERNMail documentation!
+
+The documentation is work in progress...
