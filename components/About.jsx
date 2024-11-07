@@ -2,7 +2,7 @@ import Icon from "@/components/Icon";
 
 function About() {
   return (
-    <div className="mx-auto px-7 py-12 max-w-screen-xl">
+    <section className="mx-auto px-7 py-12 max-w-screen-xl">
       <div className="w-full bg-card text-card-foreground border-border border rounded-lg px-4 py-2 flex flex-col-reverse md:flex-row">
         <Icon
           width={160}
@@ -21,7 +21,7 @@ function About() {
           </p>
         </div>
       </div>
-    </div>
+    </section>
   );
 }
 
