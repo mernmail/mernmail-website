@@ -70,7 +70,7 @@ Run these commands to install the MERNMail integration mod for SVR.JS (replace `
 ```bash
 cd ~
 git clone https://git.svrjs.org/mernmail/mernmail-svrjs-mod.git
-cd mernmail-svrjs-integration
+cd mernmail-svrjs-mod
 npm install
 npm run build
 cp dist/mod.js /usr/lib/svrjs/mods/mernmail.js
