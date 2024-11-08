@@ -160,7 +160,7 @@ These third parties have access to your Personal Data only to perform these task
 
 We are using a self-hosted Matomo instance at _analytics.svrjs.org_ to monitor and analyze the use of our Service.
 
-You may choose to prevent this website from aggregating and analyzing the actions you take here. Doing so will protect your privacy, but will also prevent the owner from learning from your actions and creating a better experience for you and other users. You can visit the [opt-out form there](https://analytics.svrjs.org/index.php?module=CoreAdminHome&action=optOut&language=en-US).
+MATOMOOPTOUT
 
 ## 15\. CI/CD tools
 
