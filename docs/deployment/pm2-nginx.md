@@ -79,3 +79,15 @@ sudo ln -s /etc/nginx/sites-available/mernmail /etc/nginx/sites-enabled/mernmail
 ## 6. Restart NGINX
 
 Restart NGINX using either `sudo systemctl restart nginx` or `sudo /etc/init.d/nginx restart` command.
+
+## Updating MERNMail
+
+To update the MERNMail webmail application, run these commands:
+
+```bash
+cd ~/mernmail
+git pull
+npm run build
+```
+
+After updating MERNMail, restart MERNMail using the `pm2 restart "MERNMail"` command.

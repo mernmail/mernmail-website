@@ -79,3 +79,13 @@ cp dist/mod.js /usr/lib/svrjs/mods/mernmail.js
 ## 6. Restart SVR.JS
 
 Restart SVR.JS using either `sudo systemctl restart svrjs` or `sudo /etc/init.d/svrjs restart` command.
+
+## Updating MERNMail
+
+To update the MERNMail webmail application, run this command:
+
+```bash
+sudo runuser svrjs -s /bin/bash -c 'cd /var/lib/mernmail && git pull && npm install && npm run build'
+```
+
+After updating MERNMail, restart SVR.JS using either `sudo systemctl restart svrjs` or `sudo /etc/init.d/svrjs restart` command.
