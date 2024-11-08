@@ -16,6 +16,7 @@ import "prismjs/components/prism-yaml";
 import "prismjs/components/prism-markdown";
 import "prismjs/components/prism-json";
 import "prismjs/components/prism-perl";
+import "prismjs/components/prism-nginx";
 
 import "./_styles/prism-twilight.css";
 import "./_styles/prism.twilight.min.css";

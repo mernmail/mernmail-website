@@ -39,5 +39,11 @@ export default [
     target: "_self",
     sub: true,
     label: "Deploy with SVR.JS"
+  },
+  {
+    href: "/docs/deployment/pm2-nginx",
+    target: "_self",
+    sub: true,
+    label: "Deploy with PM2 + NGINX"
   }
 ];

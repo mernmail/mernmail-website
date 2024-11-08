@@ -57,7 +57,7 @@ sudo runuser svrjs -s /bin/bash -c 'cd /var/lib/mernmail && npm install && npm r
 
 ## 4. Configure MERNMail
 
-Copy the `.env.example` file to a `.env` file in the MERNMail root directory (like `/var/lib/mernmail`). The configuration options can be found in the [/docs/configuration](Configuration) page.
+Copy the `.env.example` file to a `.env` file in the MERNMail root directory (like `/var/lib/mernmail`). The configuration options can be found in the [Configuration](/docs/configuration) page.
 
 For additional security, you can set the permissions for the `.env` file using this command:
 ```bash

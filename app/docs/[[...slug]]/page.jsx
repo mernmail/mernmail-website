@@ -19,6 +19,7 @@ import "prismjs/components/prism-markdown";
 import "prismjs/components/prism-markup-templating";
 import "prismjs/components/prism-json";
 import "prismjs/components/prism-perl";
+import "prismjs/components/prism-nginx";
 
 export async function generateMetadata({ params }) {
   const obtainedParams = await params;

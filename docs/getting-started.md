@@ -24,17 +24,18 @@ git clone https://git.svrjs.org/mernmail/mernmail.git
 cd mernmail
 ```
 
-### 2. Install Dependencies
+### 2. Install Dependencies and Build the Application
 
-Navigate to the project directory and install the necessary dependencies:
+Navigate to the project directory, install the necessary dependencies, and build the MERNMail application:
 
 ```bash
 npm install
+npm run build
 ```
 
 ### 3. Configuration
 
-Copy the `.env.example` file to a `.env` file in the root directory of the project. The configuration options can be found in the [/docs/configuration](Configuration) page.
+Copy the `.env.example` file to a `.env` file in the root directory of the project. The configuration options can be found in the [Configuration](/docs/configuration) page.
 
 ### 4. Running the Application
 
