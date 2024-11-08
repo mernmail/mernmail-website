@@ -9,7 +9,7 @@ function FAQ() {
   const ref = useRef({});
 
   return (
-    <section className="mx-auto px-3 py-24 max-w-screen-xl">
+    <section className="mx-auto px-3 py-16 md:py-24 max-w-screen-xl">
       <h2 className="text-center font-bold text-4xl md:text-5xl hyphens-auto mb-4">
         Frequently Asked Questions
       </h2>
