@@ -34,7 +34,7 @@ npm install
 
 ### 3. Configuration
 
-Copy the `.env.example` file to a `.env` file in the root directory of the project. The configuration options can be found in the "TODO" page.
+Copy the `.env.example` file to a `.env` file in the root directory of the project. The configuration options can be found in the [/docs/configuration](Configuration) page.
 
 ### 4. Running the Application
 
