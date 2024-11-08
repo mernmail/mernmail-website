@@ -1,6 +1,6 @@
 # Deploy with PM2 + NGINX
 
-PM2 is a process manager for Node.JS applications with a built-in load balancer. NGINX is a popular web server and reverse proxy software. This tutorial will guide you on how to deploy MERNMail application with PM2 and NGINX on GNU/Linux systems.
+PM2 is a process manager for Node.JS applications with a built-in load balancer. NGINX is popular web server and reverse proxy software. This tutorial will guide you on how to deploy MERNMail application with PM2 and NGINX on GNU/Linux systems.
 
 ## 1. Clone the Repository
 
@@ -35,7 +35,7 @@ pm2 start npm --name "MERNMail" --start
 pm2 startup
 ```
 
-After running the `pm2 startup` command, run the command shown in the output to the terminal to start the PM2 daemon when the OS boots up.
+After running the `pm2 startup` command, run the command shown in the terminal to start the PM2 daemon when the OS boots up.
 
 ## 5. Install and Set Up NGINX
 
