@@ -54,7 +54,8 @@ function Footer() {
         <div className="border-t mb-6 border-gray-300 dark:border-white/30"></div>
         <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0 px-4">
           <span className="text-sm font-light">
-            Copyright © 2023-{currentYear}{" "}
+            Copyright © {currentYear == 2024 ? "" : "2024-"}
+            {currentYear}{" "}
             <Link
               href={footerLinks.footerBottom.rightsReserved.href}
               className="text-primary font-semibold"
