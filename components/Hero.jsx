@@ -20,14 +20,14 @@ function Hero() {
         </p>
         <div className="flex flex-row gap-2 justify-center md:justify-start">
           <Link
-            href="#"
+            href="/docs/getting-started"
             target={"_self"}
             className="bg-primary text-primary-foreground rounded-md px-5 py-2 text-lg hover:bg-primary/75 transition-colors"
           >
             Get started
           </Link>
           <Link
-            href="#"
+            href="/docs/demo"
             target={"_self"}
             className="bg-accent text-accent-foreground rounded-md px-5 py-2 text-lg hover:bg-accent/75 transition-colors"
           >
