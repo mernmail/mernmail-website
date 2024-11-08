@@ -28,6 +28,28 @@ export async function generateMetadata({ params }) {
       docLink.href ==
       `/docs${obtainedParams.slug ? "/" + obtainedParams.slug.join("/") : ""}`
   );
+  try {
+    await fs.readFile(
+      `${process.cwd()}/docs/${obtainedParams.slug ? obtainedParams.slug.join("/") : ""}.md`
+    );
+    // eslint-disable-next-line no-unused-vars
+  } catch (err) {
+    try {
+      await fs.readFile(
+        `${process.cwd()}/docs/${obtainedParams.slug ? obtainedParams.slug.join("/") : ""}/index.md`
+      );
+    } catch (err) {
+      return {
+        title: "404 Not Found - MERNMail",
+        openGraph: {
+          title: "404 Not Found - MERNMail"
+        },
+        twitter: {
+          title: "404 Not Found - MERNMail"
+        }
+      };
+    }
+  }
   return {
     title: `${foundDocLink ? foundDocLink.label : obtainedParams.slug && obtainedParams.slug.length > 0 ? obtainedParams.slug[obtainedParams.slug.length - 1] : "Documentation"} - MERNMail`,
     description:
