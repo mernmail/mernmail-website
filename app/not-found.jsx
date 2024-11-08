@@ -2,6 +2,16 @@ import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import Link from "next/link";
 
+export const metadata = {
+  title: "404 Not Found - MERNMail",
+  openGraph: {
+    title: "404 Not Found - MERNMail"
+  },
+  twitter: {
+    title: "404 Not Found - MERNMail"
+  }
+};
+
 function NotFound() {
   return (
     <>
