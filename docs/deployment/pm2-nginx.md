@@ -48,7 +48,6 @@ server {
     listen 80;
     server_name _;
 
-    add_header Strict-Transport-Security "max-age=31536000; includeSubDomains; preload";
     add_header x-content-type-options "nosniff";
     add_header Content-Security-Policy "default-src 'self'; script-src 'self' 'sha256-VA8O2hAdooB288EpSTrGLl7z3QikbWU9wwoebO/QaYk=' 'sha256-+5XkZFazzJo8n0iOP4ti/cLCMUudTf//Mzkb7xNPXIc=' 'sha256-MS6/3FCg4WjP9gwgaBGwLpRCY6fZBgwmhVCdrPrNf3E=' 'sha256-tQjf8gvb2ROOMapIxFvFAYBeUJ0v1HCbOcSmDNXGtDo='; style-src 'self' 'unsafe-inline'; frame-src 'self' data:";
     add_header Referrer-Policy "strict-origin-when-cross-origin";
