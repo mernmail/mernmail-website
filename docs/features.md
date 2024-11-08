@@ -24,8 +24,6 @@ MERNMail is a webmail application designed to provide a seamless email experienc
 ## Address Book
 
 - **Contacts**: Add, edit, and delete contacts.
-- **Groups**: Organize contacts into groups.
-- **Import/Export**: Import and export contacts in various formats (e.g., CSV, vCard).
 - **Search**: Quickly find contacts using the search bar.
 
 ## Settings
