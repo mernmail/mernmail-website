@@ -13,9 +13,8 @@ function Hero() {
           </span>
         </h1>
         <p className="text-muted-foreground text-lg my-4 md:w-10/12">
-          Experience the future of email with MERNMail. Built with the MERN
-          stack for performance and security. Join and take control of your
-          inbox today!
+          Organize your emails with MERNMail. Built with the MERN stack for
+          performance and security. Join and take control of your inbox today!
         </p>
         <div className="flex flex-row gap-2 justify-center md:justify-start">
           <Link
