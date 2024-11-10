@@ -87,6 +87,7 @@ To update the MERNMail webmail application, run these commands:
 ```bash
 cd ~/mernmail
 git pull
+npm install
 npm run build
 ```
 
