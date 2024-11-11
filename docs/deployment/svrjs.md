@@ -22,7 +22,7 @@ Open the `/etc/svrjs-config.json` file in your preferred text editor, and alter 
 {
   "customHeaders": {
     "x-content-type-options": "nosniff",
-    "Content-Security-Policy": "default-src 'self'; script-src 'self' 'sha256-VA8O2hAdooB288EpSTrGLl7z3QikbWU9wwoebO/QaYk=' 'sha256-+5XkZFazzJo8n0iOP4ti/cLCMUudTf//Mzkb7xNPXIc=' 'sha256-MS6/3FCg4WjP9gwgaBGwLpRCY6fZBgwmhVCdrPrNf3E=' 'sha256-tQjf8gvb2ROOMapIxFvFAYBeUJ0v1HCbOcSmDNXGtDo='; style-src 'self' 'unsafe-inline'; frame-src 'self' data:",
+    "Content-Security-Policy": "default-src 'self'; script-src 'self' 'sha256-VA8O2hAdooB288EpSTrGLl7z3QikbWU9wwoebO/QaYk=' 'sha256-+5XkZFazzJo8n0iOP4ti/cLCMUudTf//Mzkb7xNPXIc=' 'sha256-MS6/3FCg4WjP9gwgaBGwLpRCY6fZBgwmhVCdrPrNf3E=' 'sha256-tQjf8gvb2ROOMapIxFvFAYBeUJ0v1HCbOcSmDNXGtDo='; style-src 'self' 'unsafe-inline'; img-src 'self' data: *; frame-src 'self' data:",
     "Referrer-Policy": "strict-origin-when-cross-origin",
     "Permissions-Policy": "geolocation=(), camera=(), microphone=(), fullscreen=*",
     "Feature-Policy": "geolocation 'none', camera 'none', microphone 'none', fullscreen *"
