@@ -25,7 +25,9 @@ function FAQ() {
                 );
               }}
             >
-              <div className="grow w-full text-start">{question.question}</div>
+              <span className="grow w-full text-start">
+                {question.question}
+              </span>
               <Plus
                 className={`${selectedAccordion == question.key ? "rotate-45" : ""} duration-300 transition-transform`}
               />
