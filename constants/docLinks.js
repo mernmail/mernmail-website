@@ -41,6 +41,12 @@ export default [
     label: "Deploy with SVR.JS"
   },
   {
+    href: "/docs/deployment/pm2-ferron",
+    target: "_self",
+    sub: true,
+    label: "Deploy with PM2 + Ferron"
+  },
+  {
     href: "/docs/deployment/pm2-nginx",
     target: "_self",
     sub: true,
