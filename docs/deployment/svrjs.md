@@ -48,7 +48,7 @@ Run these commands to set up MERNMail:
 
 ```bash
 cd /var/lib
-git clone https://git.svrjs.org/mernmail/mernmail.git
+git clone https://github.com/mernmail/mernmail.git
 chown -hR svrjs:svrjs /var/lib/mernmail
 cd mernmail
 sudo runuser svrjs -s /bin/bash -c 'cd /var/lib/mernmail && npm install && npm run build'
@@ -69,7 +69,7 @@ Run these commands to install the MERNMail integration mod for SVR.JS (replace `
 
 ```bash
 cd ~
-git clone https://git.svrjs.org/mernmail/mernmail-svrjs-mod.git
+git clone https://github.com/mernmail/mernmail-svrjs-mod.git
 cd mernmail-svrjs-mod
 npm install
 npm run build

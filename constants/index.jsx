@@ -28,7 +28,7 @@ export const headerLinks = {
     }
   ],
   git: {
-    href: "https://git.svrjs.org/mernmail/mernmail",
+    href: "https://github.com/mernmail/mernmail",
     target: "_blank"
   }
 };
@@ -100,7 +100,7 @@ export const footerLinks = {
   resources: [
     { href: "/docs", label: "Docs" },
     {
-      href: "https://git.svrjs.org/mernmail/mernmail",
+      href: "https://github.com/mernmail/mernmail",
       label: "Git repository"
     },
     { href: "/contribute", label: "Contribute" }

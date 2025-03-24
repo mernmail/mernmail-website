@@ -20,7 +20,7 @@ Follow these steps to install and set up MERNMail:
 First, clone the MERNMail repository:
 
 ```bash
-git clone https://git.svrjs.org/mernmail/mernmail.git
+git clone https://github.com/mernmail/mernmail.git
 cd mernmail
 ```
 

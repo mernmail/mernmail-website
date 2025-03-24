@@ -8,7 +8,7 @@ First, change your working directory to your home directory, and clone the MERNM
 
 ```bash
 cd ~
-git clone https://git.svrjs.org/mernmail/mernmail.git
+git clone https://github.com/mernmail/mernmail.git
 cd mernmail
 ```
 

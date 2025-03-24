@@ -336,9 +336,7 @@ Please send your feedback, comments, requests for technical support by email: _s
 export const contribute = `
 ## Git server details
 
-The Git server runs Forgejo Git hosting package and it's located at [https://git.svrjs.org/](https://git.svrjs.org/).
-
-If you have enabled two-factor authentication or logged in via GitHub, generate an access token and use it as a password in Git CLI.
+The repositories for Ferron are hosted on GitHub.
 
 ## Reporting Bugs
 
