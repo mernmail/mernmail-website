@@ -1,6 +1,5 @@
 import { Inter } from "next/font/google";
 import { ThemeProvider } from "next-themes";
-import Analytics from "@/components/Analytics";
 import "./globals.css";
 
 const inter = Inter({
@@ -50,7 +49,6 @@ export default function RootLayout({ children }) {
           disableTransitionOnChange={true}
         >
           {children}
-          <Analytics pagesRouter={false} />
         </ThemeProvider>
       </body>
     </html>
