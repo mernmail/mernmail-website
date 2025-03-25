@@ -53,7 +53,7 @@ When you access Service with a device, this Usage Data may include information s
 
 ### Tracking Cookies Data
 
-We don't use any cookies for tracking on our Service. You can however set a cookie that allows opt-out from Matomo analytics using form in the Section 14.
+We don't use any cookies for tracking on our Service.
 
 ## 5\. Use of Data
 
@@ -156,33 +156,27 @@ We may employ third party companies and individuals to facilitate our Service (*
 
 These third parties have access to your Personal Data only to perform these tasks on our behalf and are obligated not to disclose or use it for any other purpose.
 
-## 14\. Analytics
-
-We are using a self-hosted Matomo instance at _analytics.svrjs.org_ to monitor and analyze the use of our Service.
-
-MATOMOOPTOUT
-
-## 15\. CI/CD tools
+## 14\. CI/CD tools
 
 We may use third-party Service Providers to automate the development process of our Service.
 
-## 16\. Behavioral Remarketing
+## 15\. Behavioral Remarketing
 
 We may use remarketing services to advertise on third party websites to you after you visited our Service. We and our third-party vendors use cookies to inform, optimise and serve ads based on your past visits to our Service.
 
-## 17\. Links to Other Sites
+## 16\. Links to Other Sites
 
 Our Service may contain links to other sites that are not operated by us. If you click a third party link, you will be directed to that third party's site. We strongly advise you to review the Privacy Policy of every site you visit.
 
 We have no control over and assume no responsibility for the content, privacy policies or practices of any third party sites or services.
 
-## 18\. Children's Privacy
+## 17\. Children's Privacy
 
 Our Services are not intended for use by children under the age of 18 (**"Child"** or **"Children"**).
 
 We do not knowingly collect personally identifiable information from Children under 18\. If you become aware that a Child has provided us with Personal Data, please contact us. If we become aware that we have collected Personal Data from Children without verification of parental consent, we take steps to remove that information from our servers.
 
-## 19\. Changes to This Privacy Policy
+## 18\. Changes to This Privacy Policy
 
 We may update our Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page.
 
@@ -190,7 +184,7 @@ We will let you know via a prominent notice on our Service, prior to the change 
 
 You are advised to review this Privacy Policy periodically for any changes. Changes to this Privacy Policy are effective when they are posted on this page.
 
-## 20\. Contact Us
+## 19\. Contact Us
 
 If you have any questions about this Privacy Policy, please contact us by email: _privacy@mernmail.org_.
 `;
