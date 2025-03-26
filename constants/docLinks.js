@@ -35,12 +35,6 @@ export default [
     label: "Deployment"
   },
   {
-    href: "/docs/deployment/svrjs",
-    target: "_self",
-    sub: true,
-    label: "Deploy with SVR.JS"
-  },
-  {
     href: "/docs/deployment/pm2-ferron",
     target: "_self",
     sub: true,

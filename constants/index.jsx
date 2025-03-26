@@ -118,8 +118,8 @@ export const footerLinks = {
       label: "Privacy Policy"
     },
     rightsReserved: {
-      href: "https://svrjs.org/",
-      label: "SVR.JS"
+      href: "https://www.ferronweb.org/",
+      label: "Ferron"
     }
   }
 };
