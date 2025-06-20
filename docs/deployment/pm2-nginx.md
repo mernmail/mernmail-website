@@ -44,6 +44,11 @@ Install NGINX using `sudo apt install nginx` on Debian-based systems, `sudo pacm
 After installing NGINX, open your preferred text editor, and save these contents to the `/etc/nginx/sites-available/mernmail` file (replace `/home/user` with path to your home directory; also check the port the MERNMail application listens to; this configuration causes NGINX to only listen to port 80):
 
 ```nginx
+upstream mernmail-backend {
+    server localhost:3000;
+    keepalive 32;
+}
+
 server {
     listen 80;
     server_name _;
@@ -55,7 +60,7 @@ server {
     add_header Feature-Policy "geolocation 'none', camera 'none', microphone 'none', fullscreen *";
 
     location /api/ {
-        proxy_pass http://localhost:3000/api/;
+        proxy_pass http://mernmail-backend/api/;
         proxy_http_version 1.1;
         proxy_set_header Upgrade $http_upgrade;
         proxy_set_header Connection 'upgrade';
